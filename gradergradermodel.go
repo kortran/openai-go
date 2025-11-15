@@ -5,13 +5,13 @@ package openai
 import (
 	"encoding/json"
 
-	"github.com/openai/openai-go/v3/internal/apijson"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/packages/param"
-	"github.com/openai/openai-go/v3/packages/respjson"
-	"github.com/openai/openai-go/v3/responses"
-	"github.com/openai/openai-go/v3/shared"
-	"github.com/openai/openai-go/v3/shared/constant"
+	"github.com/kortran/openai-go/v3/internal/apijson"
+	"github.com/kortran/openai-go/v3/option"
+	"github.com/kortran/openai-go/v3/packages/param"
+	"github.com/kortran/openai-go/v3/packages/respjson"
+	"github.com/kortran/openai-go/v3/responses"
+	"github.com/kortran/openai-go/v3/shared"
+	"github.com/kortran/openai-go/v3/shared/constant"
 )
 
 // GraderGraderModelService contains methods and other services that help with

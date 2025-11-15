@@ -19,7 +19,7 @@ from applications written in Go.
 
 ```go
 import (
-	"github.com/openai/openai-go/v3" // imported as openai
+	"github.com/kortran/openai-go/v3" // imported as openai
 )
 ```
 
@@ -49,9 +49,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/shared"
+	"github.com/kortran/openai-go/v3"
+	"github.com/kortran/openai-go/v3/option"
+	"github.com/kortran/openai-go/v3/shared"
 )
 
 func main() {
@@ -656,9 +656,9 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/webhooks"
+	"github.com/kortran/openai-go/v3"
+	"github.com/kortran/openai-go/v3/option"
+	"github.com/kortran/openai-go/v3/webhooks"
 )
 
 func main() {
@@ -716,8 +716,8 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/option"
+	"github.com/kortran/openai-go/v3"
+	"github.com/kortran/openai-go/v3/option"
 )
 
 func main() {
@@ -907,8 +907,8 @@ package main
 
 import (
 	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/azure"
+	"github.com/kortran/openai-go/v3"
+	"github.com/kortran/openai-go/v3/azure"
 )
 
 func main() {

@@ -8,11 +8,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/conversations"
-	"github.com/openai/openai-go/v3/internal/testutil"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/responses"
+	"github.com/kortran/openai-go/v3"
+	"github.com/kortran/openai-go/v3/conversations"
+	"github.com/kortran/openai-go/v3/internal/testutil"
+	"github.com/kortran/openai-go/v3/option"
+	"github.com/kortran/openai-go/v3/responses"
 )
 
 func TestItemNewWithOptionalParams(t *testing.T) {

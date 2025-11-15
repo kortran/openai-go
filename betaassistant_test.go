@@ -8,11 +8,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/openai/openai-go/v3"
-	"github.com/openai/openai-go/v3/internal/testutil"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/shared"
-	"github.com/openai/openai-go/v3/shared/constant"
+	"github.com/kortran/openai-go/v3"
+	"github.com/kortran/openai-go/v3/internal/testutil"
+	"github.com/kortran/openai-go/v3/option"
+	"github.com/kortran/openai-go/v3/shared"
+	"github.com/kortran/openai-go/v3/shared/constant"
 )
 
 func TestBetaAssistantNewWithOptionalParams(t *testing.T) {

@@ -2,7 +2,7 @@
 package json
 
 import (
-	"github.com/openai/openai-go/v3/internal/encoding/json/shims"
+	"github.com/kortran/openai-go/v3/internal/encoding/json/shims"
 	"reflect"
 	"time"
 )

@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"slices"
 
-	"github.com/openai/openai-go/v3/internal/apijson"
-	"github.com/openai/openai-go/v3/internal/requestconfig"
-	"github.com/openai/openai-go/v3/option"
-	"github.com/openai/openai-go/v3/packages/param"
-	"github.com/openai/openai-go/v3/packages/respjson"
+	"github.com/kortran/openai-go/v3/internal/apijson"
+	"github.com/kortran/openai-go/v3/internal/requestconfig"
+	"github.com/kortran/openai-go/v3/option"
+	"github.com/kortran/openai-go/v3/packages/param"
+	"github.com/kortran/openai-go/v3/packages/respjson"
 )
 
 // FineTuningAlphaGraderService contains methods and other services that help with

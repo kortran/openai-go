@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openai/openai-go/v3/internal/requestconfig"
+	"github.com/kortran/openai-go/v3/internal/requestconfig"
 	"github.com/tidwall/sjson"
 )
 
